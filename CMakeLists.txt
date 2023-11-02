@@ -3,7 +3,7 @@ project(hi)
 
 set(CMAKE_CXX_STANDARD 17)
 
-include_directories(include)
+include_directories(curl)
 
 set(CURL_LIBRARY "libcurl.dll.a")
 
