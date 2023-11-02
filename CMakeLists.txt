@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 include_directories(include)
 
-find_library(CURL_LIBRARY NAMES curl)
+find_library(CURL_LIBRARY NAMES libcurl)
 
 if(NOT CURL_LIBRARY)
     message(FATAL_ERROR "CURL library not found")
