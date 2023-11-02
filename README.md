@@ -3,10 +3,6 @@
   <img src="https://img.shields.io/badge/CMake-3.20-blueviolet.svg" alt="CMake Version">
   <img src="https://img.shields.io/badge/Curl-7.77-green.svg" alt="Curl Version">
 </p>
-<p align="center">
-  <img src="https://img.shields.io/github/stars/gumbobr0t/hi-spammer?style=for-the-badge" alt="GitHub stars">
-  <img src="https://img.shields.io/github/commits-since/gumbobr0t/hi-spammer/latest?style=for-the-badge" alt="GitHub commits since latest release">
-</p>
 
 # Discord Webhook Utility
 
@@ -49,10 +45,18 @@ The tool will prompt you with the following questions:
 - `Hook URL`: Provide the webhook URL.
 - `Message`: Enter the message to be sent.
 - `Count`: Specify the number of times to send the message.
-- `Delete Messages`: Type 'y' to delete messages, 'n' to skip.
+- `Delete Messages`: Type 'y' to delete messages, 'n' to skip
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
-This project is licensed under the [MIT License](https://opensource.org/license/mit/).
 
-## Love to everyone 💞
-[![Stargazers repo roster for @gumbobr0t/hi-spammer](https://reporoster.com/stars/dark/gumbobr0t/hi-spammer)](https://github.com/gumbobr0t/hi-spammer/stargazers)
+This project is licensed under the [MIT License](https://opensource.org/license/mit/).
