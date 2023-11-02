@@ -18,7 +18,7 @@ Before building the project, ensure you have the following dependencies installe
 
 - [CMake](https://cmake.org/download/)
 - [Curl](https://curl.se/download.html)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/de/downloads/) (tick `C++ Desktop Development` in the installer)
+- [Visual Studio 2022](https://visualstudio.microsoft.com/de/downloads/) (tick `C++ Desktop Development` under `Visual Studio Build Tools 2022` in the installer)
 
 Additionally, make sure you have all the required files from `cLibs` in the directory `C:/libs`. Create the directory if it doesn't exist.
 
