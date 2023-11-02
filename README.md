@@ -34,8 +34,8 @@ cd hi-spammer
 
 # Step 3: Prepare Dependencies
 # Create the necessary directory for dependencies and copy the required files:
-sudo mkdir -p /usr/local/lib/
-sudo cp -r cLibs/* /usr/local/lib/
+sudo mkdir -p C:/libs
+sudo cp -r cLibs/* C:/líbs
 
 # Step 4: Configure with CMake
 cmake .
