@@ -1,6 +1,6 @@
 #include <iostream>
 #include <windows.h>
-#include <curl/curl.h>
+#include <curl.h>
 
 CURL *curl;
 CURLcode res;
