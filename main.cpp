@@ -60,8 +60,8 @@ int spamWebhook(const std::string& webhookMessage, const std::string& spamAmount
 
     if (curl) {
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYSTATUS, 1L);
-        curl_easy_setopt(curl, CURLOPT_CAINFO, "cacert.pem");
-        curl_easy_setopt(curl, CURLOPT_CAPATH, "cacert.pem");
+        curl_easy_setopt(curl, CURLOPT_CAINFO, "ssl\\cacert.pem");
+        curl_easy_setopt(curl, CURLOPT_CAPATH, "ssl\\cacert.pem");
 
         std::string jsonPayload = "{\"content\":\"" + webhookMessage + "\"}";
 
@@ -89,8 +89,8 @@ int spamWebhook(const std::string& webhookMessage, const std::string& spamAmount
             curl = curl_easy_init();
             if(curl) {
                 curl_easy_setopt(curl, CURLOPT_SSL_VERIFYSTATUS, 1L);
-                curl_easy_setopt(curl, CURLOPT_CAINFO, "cacert.pem");
-                curl_easy_setopt(curl, CURLOPT_CAPATH, "cacert.pem");
+                curl_easy_setopt(curl, CURLOPT_CAINFO, "ssl\\cacert.pem");
+                curl_easy_setopt(curl, CURLOPT_CAPATH, "ssl\\cacert.pem");
 
                 curl_easy_setopt(curl, CURLOPT_URL, webhookUrl.c_str());
                 curl_easy_setopt(curl, CURLOPT_CUSTOMREQUEST, "DELETE");
