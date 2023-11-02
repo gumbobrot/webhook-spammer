@@ -23,13 +23,49 @@ Additionally, make sure you have all the required files from `cLibs` in the dire
 
 ## Building the Project
 
+## Building the Project
+
 ```bash
+# Step 1: Clone the Repository
 git clone https://github.com/gumbobr0t/hi-spammer.git
+
+# Step 2: Navigate to Project Directory
 cd hi-spammer
+
+# Step 3: Prepare Dependencies
+# Create the necessary directory for dependencies and copy the required files:
 mkdir -p C:/libs
-cp -r path/to/cLibs/* C:/libs
+cp -r cLibs/* C:/libs
+
+# Step 4: Configure with CMake
 cmake .
+
+# If you encounter a "compiler not found" error, ensure you have a C++ compiler installed.
+# Refer to the CMake documentation for information on how to specify a compiler.
+
+# Step 5: Build the Project
 make
+
+# Note: If you're using Windows, you may need to use a different command or IDE to build the project.
+# Refer to the documentation for your specific environment.
+
+# Additionally, make sure that you have a C++ compiler installed on your system.
+# You can check if a C++ compiler is available by running the command `g++ --version`.
+
+# If you don't have a C++ compiler installed, you'll need to download and install one.
+# For Windows, you can use tools like MinGW or Visual Studio.
+# For macOS, Xcode Command Line Tools provide the necessary compiler.
+# On Linux, you can use packages like `build-essential` on Debian-based systems
+# or `gcc-c++` on Red Hat-based systems to install a compiler.
+
+# After installing a C++ compiler, you may need to add it to your system's PATH environment variable
+# so that CMake can find it. Consult the documentation for your specific compiler and operating system
+# for instructions on how to do this.
+
+# Once you have a C++ compiler installed and properly configured, rerun the `cmake .` command
+# and then proceed with the `make` step.
+
+# If you're using an IDE, refer to its documentation for instructions on how to configure the compiler for your project.
 ```
 
 ## Usage
