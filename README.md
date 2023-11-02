@@ -23,8 +23,6 @@ Additionally, make sure you have all the required files from `cLibs` in the dire
 
 ## Building the Project
 
-## Building the Project
-
 ```bash
 # Step 1: Clone the Repository
 git clone https://github.com/gumbobr0t/hi-spammer.git
