@@ -18,12 +18,13 @@ Before building the project, ensure you have the following dependencies installe
 
 - [CMake](https://cmake.org/download/)
 - [Curl](https://curl.se/download.html)
+- [Visual Studio 2022](https://visualstudio.microsoft.com/de/downloads/) (tick `C++ Desktop Development` in the installer)
 
 Additionally, make sure you have all the required files from `cLibs` in the directory `C:/libs`. Create the directory if it doesn't exist.
 
 ## Building the Project
 
-```bash
+```shell
 # Step 1: Clone the Repository
 git clone https://github.com/gumbobr0t/hi-spammer.git
 
@@ -68,11 +69,7 @@ make
 
 ## Usage
 
-To use the tool, run the executable with the following command:
-
-```bash
-./hi
-```
+To use the tool, run the executable inside of your.
 
 The tool will prompt you with the following questions:
 
